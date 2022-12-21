@@ -5,6 +5,8 @@ import luangprabang from '../img/luangprabang.jpg'
 import chanpasak from '../img/chanpasak0-1.jpg'
 import muangfeuang from '../img/muangfeuang0-1.jpg'
 import xaysomboun from '../img/xaysomboun0-1.jpg'
+import xeingkhouag from '../img/xeingkhouag.jpg'
+
 
 
 export default function Destination() {
@@ -57,6 +59,18 @@ export default function Destination() {
                         </a>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src={xeingkhouag} alt=""/>
+                        <a class="destination-overlay text-white text-decoration-none" href="/#">
+                            <h5 class="text-white">ຊຽງຂວາງ</h5>
+                        </a>
+                    </div>
+                </div>
+
+
+
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src={xaysomboun} alt=""/>
